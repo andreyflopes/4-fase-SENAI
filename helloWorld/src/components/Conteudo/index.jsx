@@ -1,10 +1,12 @@
 
+import { React } from '../icons/React'
 import './index.css'
 function Conteudo() {
   return (
-    <div className="caixas">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ad, rem velit eos et odio? Ea ipsa similique fugit cumque repudiandae blanditiis nisi quaerat aut illo tempora, accusantium recusandae consectetur.</p>
-    
+    <div className="caixas-container">
+      <p>React JS</p>
+     
+      <React />
     </div>
   )
 }

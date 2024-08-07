@@ -1,6 +1,8 @@
 .app-container{
     display: flex;
     flex-direction: column;
+    
+    
 }
 
 .body{
@@ -9,6 +11,11 @@
     flex-direction: row;
     align-items: center;
     gap: 10%;
-    height: 90vh;
+    height: 93vh;
     flex-wrap: wrap;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    
 }

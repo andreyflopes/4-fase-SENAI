@@ -1,9 +1,14 @@
 import './Header.css'
+import { BlocksShuffle2 } from './icons/BlocksShuffle2'
 
 function Header() {
+  const iconBig = {
+    width: "90px",
+    height: "90px"
+  }
   return (
    <div className='Header'>
-    <h1>RIDER BIURIFUL</h1>
+    <BlocksShuffle2 style={iconBig}/>
 
    </div>
   )
