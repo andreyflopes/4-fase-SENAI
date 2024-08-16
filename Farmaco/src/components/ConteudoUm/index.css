@@ -1,11 +1,11 @@
 .conteudoUm-container{
+    width: 100%;
     height: 40vh;
-    width: 100vw;
-    background-color: var(--cor-2);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
 }
 
-.logoGrande{
+.img-logo{
     height: 100%;
 }

@@ -10,5 +10,6 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: var(--cor-1);
+  background-color: var(--cor-6);
+  width: 100vw;
 }
