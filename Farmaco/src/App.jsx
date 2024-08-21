@@ -5,7 +5,7 @@ import './App.css'
 
  
 import ConteudoUm from './components/ConteudoUm'
-import ConteudoDois from './components/ConteudoDois'
+import Slideshow from './components/Slide'
 
 
 function App() {
@@ -14,9 +14,8 @@ function App() {
   return (
     <>
       <Header />
+      <Slideshow />
       <ConteudoUm />
-      <ConteudoDois />
-      
     </>
   )
 }
