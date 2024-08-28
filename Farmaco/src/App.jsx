@@ -6,6 +6,7 @@ import './App.css'
  
 import ConteudoUm from './components/ConteudoUm'
 import Slideshow from './components/Slide'
+import CalendarComponent from './components/calendario'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Slideshow />
       <ConteudoUm />
+      <CalendarComponent />
     </>
   )
 }

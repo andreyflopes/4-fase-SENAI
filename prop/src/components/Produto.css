@@ -1,0 +1,12 @@
+.produto {
+    padding: 10px;
+    border: 1px solid #9900e0;
+    box-shadow: 0 0 10px #9900e0;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }

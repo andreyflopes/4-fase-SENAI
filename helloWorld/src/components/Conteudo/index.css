@@ -13,6 +13,7 @@
     font-size: 30px;
     font-weight: bold;
     transition: 3s;
+    
 }
 
 .caixas-container p{
@@ -22,6 +23,7 @@
 .caixas-container:hover{
     scale: 1.02;
 
-    transform: rotate(3turn);
+    transform: rotate(3turn) scale(1.5) scale(1);
 }
+
 
