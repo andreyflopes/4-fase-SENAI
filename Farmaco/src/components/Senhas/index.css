@@ -1,0 +1,77 @@
+.senha-container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;   
+}
+
+.gerarSenha-container{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+    align-items: center ;
+    gap: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.div-btnSenha {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.div-filaSenhas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 4vh;
+}
+
+.div-filaSenhas {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    overflow-y: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.div-filaSenhas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.div-filaSenhas li {
+    margin: 5px 0;
+    font-size: 2vh;
+}
+
+.div-chamarSenha{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 5vh;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
